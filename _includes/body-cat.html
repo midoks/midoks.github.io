@@ -1,0 +1,40 @@
+<!-- 首页主页显示内容 -->
+<div class="body" style="margin-top:55px;">
+  <div class="container">
+      {% include header-pro.html %}
+
+      <div class="row">
+        <!-- 主要内容显示 -->
+        <div class="col-md-8 left">
+          <div class="wrap">
+
+          {% for category in site.categories %}
+              <h1 id="{{ category[0] }}-ref" >{{ category[0] | join: "/" }}</h1>
+              <ul>
+              {% assign pages_list = category[1] %}
+              {% for node in pages_list %}
+                  {% if node.title != null %}
+                    {% if group == null or group == node.group %}
+                      {% if page.url == node.url %}
+                      <li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title}}</a></li>
+                      {% else %}
+                      <li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+                      {% endif %}
+                    {% endif %}
+                  {% endif %}
+                {% endfor %}
+              {% assign pages_list = nil %}
+              {% assign group = nil %}
+              </ul>
+          {% endfor %}
+          
+          </div>
+        </div>
+        <!-- sider -->
+        <div class="col-md-4 right">
+              <!-- 微博挂件 -->
+             <div class="row">{% include sidebar.html %}</div>
+        </div>
+      </div>
+  </div>
+</div>

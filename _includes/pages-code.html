@@ -1,0 +1,20 @@
+<nav>
+  <ul class="pager">
+  {% if paginator.previous_page %}
+  	{% if paginator.previous_page == 1 %}
+    	<li><a href="/" class="previous">上一页</a></li>
+    {% else %}
+    	<li><a href="/blog/page{{ paginator.previous_page }}" class="previous">上一页</a></li>
+    {% endif %}
+  {% else %}
+    <li><span class="previous">上一页</span></li>
+  {% endif %}
+
+  <li><span class="page_number">当前页: {{ paginator.page }}/{{ paginator.total_pages }}</span></li>
+  {% if paginator.next_page %}
+    <li><a href="/blog/page{{ paginator.next_page }}" class="next">下一页</a></li>
+  {% else %}
+    <li><span class="next ">下一页</span></li>
+  {% endif %}
+  </ul>
+</nav>

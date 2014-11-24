@@ -1,0 +1,39 @@
+permalink: /:year/:month/:day/:title.html
+pygments: highlighter
+
+baseurl: 
+auto: true
+
+paginate: 5
+paginate_path: "blog/page:num"
+
+
+destination: ./_site
+plugins:     ./_plugins
+#markdown:    maruku
+
+production_url : http://midoks.github.io/
+short_name : midoks
+
+
+tagline: 前端开发，javascript，html，css，ajax，用户体验，交互设计
+feed: /atom.xml
+index_path : /index.html
+archive_path: /archive.html
+categories_path : /cat.html
+tags_path : /tags.html
+about_path : /about.html
+
+#基本参数
+title: GitHub博客
+res_url : http://midoks.github.io/resources/
+categories: [test, sample]
+author :
+  name : 陈江山
+  email : midoks@163.com
+  github : midoks@github.com
+  weibo : http://weibo.com/midoks
+  weixin : weiyuchuxia
+  feedburner : feedname
+  keywords : PHP程序猿
+  description: 学习－再学习

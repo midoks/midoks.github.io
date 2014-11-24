@@ -1,0 +1,26 @@
+<!-- 首页主页显示内容 -->
+<div class="body" style="margin-top:55px;">
+  <div class="container">
+
+      {% include header-pro.html %}
+
+      <div class="row">
+        <!-- 主要内容显示 -->
+        <div class="col-md-8 left">
+          <div class="wrap">
+            <div class="row">
+                <div class="col-md-6"><h1><a href="{{ page.url }}#">{{ page.title }}</a></h1></div>
+                <div class="col-md-6 hidden-xs hidden-sm"><h5 style="">{{ page.date }}</h5></div>
+            </div>
+            <div class="content">{{ page.content }}</div>
+            {% include pages-code-np.html %}
+          </div>
+        </div>
+        <!-- sider -->
+        <div class="col-md-4 right">
+              <!-- 微博挂件 -->
+             <div class="row">{% include sidebar.html %}</div>
+        </div>
+      </div>
+  </div>
+</div>

@@ -1,0 +1,183 @@
+<!-- 特殊设置 start -->
+<div style="height:163px;width:40px;position:fixed;bottom:35px;left:10px;overflow:hidden;cursor:pointer;" id="mirror_midoks">
+	<div style="height:40px;margin-top:1px;" title="host">
+		<img src="/resources/img/source.png" style="height:40px;margin-top:1px;cursor:pointer;" />
+	</div>
+	<div style="height:40px;margin-top:1px;" title="bae">
+		<img src="/resources/img/bae.png" style="height:40px;margin-top:1px;cursor:pointer;" />
+	</div>
+	<div style="height:40px;margin-top:1px;" title="sae">
+		<img src="/resources/img/sae.png" style="height:40px;margin-top:1px;cursor:pointer;"/>
+	</div>
+	<div style="height:40px;margin-top:1px;" title="github">
+		<img src="/resources/img/github.png" style="height:40px;margin-top:1px;cursor:pointer;"/>
+	</div>
+</div>
+<script>
+$("#mirror_midoks").children().each(function(i){
+	$(this).hover(function(){
+		$(this).children().css('display', 'none');
+		var title = $(this).attr('title');
+		var source = "<a style='display:block;height:40px;width:40px;line-height:40px;text-align:center;background:#ccc;color:white;'>主地址</a>";
+		if("host"==title){
+			var source = $(source).text("M").css("font-size", 36).attr('href', 'http://midoks.cachecha.com').attr("target", "_black");
+		}else if("bae" == title){
+			var source = $(source).text("BAE").css("font-size", 20).attr('href', 'http://midoks.duapp.com').attr("target", "_black");
+		}else if("sae" == title){
+			var source = $(source).text("SAE").css("font-size", 20).attr('href', 'http://midoks.sinaapp.com').attr("target", "_black");
+		}else if("github" == title){
+			var source = $(source).text("GIT").css("font-size", 20).attr('href', 'http://midoks.github.io').attr("target", "_black");
+		}
+		$(this).append(source);
+	},function(){
+		$(this).children().css('display', 'block');
+		$(this).children().last().remove();
+	});
+});
+</script>
+
+
+<style>
+/*其他css返回顶部 start*/
+.midoks_returnTop{
+	position:fixed;
+	bottom:35px;
+	right:20px;
+	width:40px;
+	height:40px;
+	background:#666;
+	cursor: pointer;
+	display:none;
+}
+.midoks_returnTop .m{
+	position:absolute;
+	top:-2px;
+	_top:-20px;
+	width:0px;
+	height:0px;
+	left:10px;
+	border-width:10px;
+	border-color:transparent transparent #FFFFFF;
+	border-style: dashed dashed solid;
+}
+.midoks_returnTop .i{
+	position:absolute;
+	top:18px;
+	left:16px;
+	height:12px;
+	width:8px;
+	background:#FFFFFF;
+}
+</style>
+
+<div><div class="midoks_returnTop"><span class="m"></span><span class="i"></span></div></div>
+
+<script type="text/javascript">
+window.onload = function(){
+	//获取class对象
+	function get_class(ClassName){
+		var tags = tags || document.getElementsByTagName('*');
+		var list = [];
+		for(var k in tags){
+			var tag = tags[k];
+			if(tag.className == ClassName){
+				list.push(tag);
+			}
+		}
+		return list;
+	}
+
+	//事件监听
+	/**
+	 *	比较通用型的事件监听
+	 *	兼容IE5.0+IE6.0和 火狐
+	 *	@param mixed elm  如 document.getElementById('body');
+	 *	@param string evType 事件的类型
+	 *	@param function fn 执行的方法
+	 *	@param boolean useCapture (一般为false)
+	 */
+	function eventListener(elm, evType, fn, useCapture){
+		if(typeof elm == 'undefined'){
+			return false;
+		}else if(elm.addEventListener){
+			elm.addEventListener(evType, fn, useCapture);
+			return true;
+		}else if(elm.attachEvent){
+			var r = elm.attachEvent('on'+evType,fn);
+		}else{
+			elm['on'+evType] = fn;
+		}
+	}
+
+	var timer;
+	//滑动回到顶部
+	function sidebar(time, height){
+		if(typeof time == 'undefined'){
+			var time = 50;
+		}
+		if(typeof height == 'undefined'){
+			var height = 100;
+		}
+
+
+		//定时执行
+		var timer = setInterval(function(){
+			if(document.body.scrollTop==0){
+				clearInterval(timer);
+			}else{
+				document.body.scrollTop = document.body.scrollTop - height;
+			}
+		
+		},time);
+	}
+
+	var mtop =  get_class('midoks_returnTop');
+
+	if(typeof mtop[0] !== 'undefined'){
+		//监听并能点击回到顶部
+		eventListener(mtop[0], 'click', function(){
+			//document.body.scrollTop = 0;
+			//sidebar(50,50);
+			sidebar();
+		},false);
+
+		//监听鼠标移动事件
+		eventListener(document.body, 'mousemove', function(){
+			if(document.body.scrollTop > 35){
+				mtop[0].style.display="block";
+			}else{
+				mtop[0].style.display="none";
+			}
+		},false);
+	}
+}
+</script>
+<!-- 特殊设置 end -->
+
+<hr/>
+
+<style type="text/css">
+.p_img{
+	padding:0px;
+	margin:0px;
+}
+.p_img img{
+	width: 48px;
+	height: 15px;
+}
+</style>
+<!-- 底部设置 start -->
+<div class="footer" style="margin-top:5px;">
+	<div class="container">
+		<div class="row">
+			<p style="text-align:center;" class="p_img">Powered By GitHub,Jekyll,Bootstrap <span class="visible-xs-inline"><br/></span><span class="hidden-xs"> | </span> Design By Midoks | midoks.github.io All Rights Reserverd</p>
+			<p style="text-align:center;" class="p_img">最近更新时间:{{ site.time | date_to_rfc822 }} <span class="visible-xs-inline"><br/></span><span class="hidden-xs"> | </span> midoks#163.com(#替换成@,欢迎交流)</p>
+
+			{{% include tongji.html %}}
+		</div>
+	</div>
+</div>
+<!-- 底部设置 end -->
+
+</body>
+</html>
