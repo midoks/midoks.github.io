@@ -1,8 +1,12 @@
 permalink: /:year/:month/:day/:title.html
-pygments: highlighter
 
-baseurl: 
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+
+pygments: highlighter
 auto: true
+baseurl: 
+
 
 paginate: 5
 paginate_path: "blog/page:num"
