@@ -5,7 +5,7 @@ $(function(){
 		var gobj_ok = [];
 		gobj.each(function(i){
 			var gw = $(this).width();
-			l(gw);
+			//l(gw);
 			if( gw > 400 ){
 				gobj_ok.push(this);
 			}
@@ -21,9 +21,7 @@ $(function(){
 	function l(obj){console.log(obj);}
 	function img_zoom(obj){
 		var cw = $('#content').width();
-
-		l(document.body.clientWidth);
-
+		//l(document.body.clientWidth);
 		if(obj.length > 0){
 			$(obj).each(function(i){
 				var ocw = $(this).width();
