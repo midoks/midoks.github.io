@@ -1,5 +1,10 @@
 $(function(){
+
+	start_img_check();
 	$(document).ready(function(){
+		start_img_check();
+	});
+	function start_img_check(){
 		//var obj = $('#content img');
 		var gobj = $('#content img');
 		var gobj_ok = [];
@@ -16,7 +21,7 @@ $(function(){
 			img_zoom(gobj_ok);
 		});
 		//l(document.getElementById('content').getElementsByTagName('img')[0].clientWidth);
-	});
+	}
 
 	function l(obj){console.log(obj);}
 	function img_zoom(obj){
