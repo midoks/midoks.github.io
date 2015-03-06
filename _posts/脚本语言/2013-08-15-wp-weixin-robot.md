@@ -14,7 +14,7 @@ a_id: 1
 － [wordpress.org/plugins/wp-weixin-robot/](http://wordpress.org/plugins/wp-weixin-robot/)
 
 ###版本更替
-- 5.2.24
+- 5.2.25
 	* 增加long2short接口(长链接转化为短链接)[weixin-core.class.php]
 	* 增加智能接口->语意理解接口。
 	* 新增加get_ticket_url接口(简单获取二维码地址,详情看接口代码)。
@@ -28,6 +28,7 @@ a_id: 1
 	* 新增获取微信ip地址:getWeixinIp。
 	* 对事件推送群发结果,模版事件推送结果,进行了处理。
 	* 优化接口注释
+	* 实现EncodingAESKey安全加解密模式
 - 5.2.11
 	* 实现聊天功能(服务号可用)
 	* 修复上一份(5.2.6)代码复制时,导致菜单部分功能不可用
