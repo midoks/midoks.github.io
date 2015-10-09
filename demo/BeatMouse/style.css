@@ -1,0 +1,38 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+#ditu{
+	height:300px;
+	width:300px;
+	background:#ccc;
+	margin:50px 0 0 200px;
+}
+
+#ditu ul{
+	list-style:none;
+	display:block;
+	float:left;margin:0;
+	padding:0;
+}
+#ditu li{
+	display:block;
+	float:left;
+	width:100px;
+	height:100px;
+	overflow:hidden;
+	position:relative;
+	text-align:center;
+}
+#ditu li span{
+	display:block;
+	position:relative;
+	left:0;
+	top:60px;
+	width:100px;
+	height:40px;
+	background:url(image/hole.gif) 0 -60px;
+	z-index:100;
+}
+

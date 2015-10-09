@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>打地鼠</title>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+
+<!-- 提示 -->
+<span>说明:红色的点击得分100，蓝色的点击扣分100.!!!</span>
+
+<!-- 场景布置 -->
+<div id="ditu">
+	<ul>
+		<li><span></span></li>
+		<li><span></span></li>
+		<li><span></span></li>
+		<li><span></span></li>
+		<li><span></span></li>
+		<li><span></span></li>
+		<li><span></span></li>
+		<li><span></span></li>
+		<li><span></span></li>
+	</ul>
+</div>
+
+<!-- 控制 -->
+<div style="margin-top:20px;">
+	分数:<span id="score">0</span>
+	倒计时:<span id="time">60</span>
+	<input id="start" type="button" value="开始"/>
+	<input id="restart" type="button" value="重新开始"/>
+	<input id="stop" type="button" value="结束"/>
+</div>
+
+<script type="text/javascript">
+	try{
+		//document.execCommand("BackgroundImageCache",false,true);
+	}catch(e){
+	}
+</script>
+<script src="BeatMouse.js" type="text/javascript"></script>
+</body>
+</html>
+
