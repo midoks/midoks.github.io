@@ -12,6 +12,7 @@ excerpt: Mac OSX 获取屏幕的高度和宽度
 
 ###代码
 ```
+<pre>
 func demo()
 {
     //屏幕的高度
@@ -19,4 +20,5 @@ func demo()
     //屏幕的宽度
     print(NSScreen.mainScreen()?.frame.width)
 }
+</pre>
 ```
