@@ -11,10 +11,12 @@ a_id: 5
 
 ###代码
 ```swift
+
 func demo(){
     //屏幕的高度
     print(NSScreen.mainScreen()?.frame.height)
     //屏幕的宽度
     print(NSScreen.mainScreen()?.frame.width)
 }
+
 ```
