@@ -18,5 +18,4 @@ func demo()
     	//屏幕的宽度
     	print(NSScreen.mainScreen()?.frame.width)
 }
-
 ```
