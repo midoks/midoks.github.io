@@ -39,3 +39,11 @@ $(function(){
 		}
 	}
 });
+
+
+(function($){
+	$('code').each(function(i){
+		var text = $(this).html();
+		$(this).html('<pre>'+text+'</pre>');
+	});
+}($));
