@@ -5,13 +5,14 @@ tag: ['PHP', '算法']
 category: ['算法']
 a_id: 3
 ---
-	
+
 ###前言
 	ZIP文件由三部分构成:压缩文件的内容数据、压缩的目录源数据、目录结束表示结构。
 
 ###压缩的文件内容源数据
 	记录着压缩的所有文件的内容信息,其数据组织结构是对于每个文件都由file header、file data、data descriptor三部分组成:
 	1.file header:用于标示该文件的开始,结构说明如下:
+
 
 <table class="table table-bordered">
 <tr><td>offset(偏移位移)</td><td>bytes(字节)</td><td>description(描述)</td><td>含义</td></tr>
@@ -29,7 +30,7 @@ a_id: 3
 <tr><td>30</td><td>n</td><td>File name</td><td>文件名</td></tr>
 <tr><td>30+n</td><td>m</td><td>Extra field</td><td>扩展区</td></tr>
 </table>
-	
+
 	2.file data:相应压缩文件的源数据。
 	3.data descriptor:用于标识该文件压缩结束,该结构只有在相应的header中通用标记字段的第3位设为1时才会出现,紧接在压缩文件源数据后,这个数据描述符只用在不能对输出的zip文件进行检索时使用。例如:在一个不能检索的驱动器(如:磁带机上)的ZIP文件中。如果是磁盘上的zip文件一般没有这个数据描述符。结构说明如下
 
@@ -101,4 +102,3 @@ a_id: 3
 
 ###相关链接
 [zip.class.php](https://github.com/midoks/midoks/blob/master/Algorithm/zip.class.php)
-
