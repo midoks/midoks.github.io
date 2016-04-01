@@ -14,7 +14,7 @@ paginate_path: "blog/page:num"
 
 destination: ./._site
 plugins_dir:     ./_plugins
-#markdown:    maruku
+markdown:    kramdown
 
 production_url : http://midoks.github.io/
 short_name : midoks
