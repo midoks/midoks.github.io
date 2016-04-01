@@ -3,17 +3,17 @@ permalink: /:year/:month/:day/:title.html
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
-pygments: highlighter
-auto: true
-baseurl: 
+highlighter: pygments
+#auto: true
+baseurl:
 
-
-paginate: 5
+gems: [jekyll-paginate]
+paginate: 10
 paginate_path: "blog/page:num"
 
 
-destination: ./_site
-plugins:     ./_plugins
+destination: ./._site
+plugins_dir:     ./_plugins
 #markdown:    maruku
 
 production_url : http://midoks.github.io/
