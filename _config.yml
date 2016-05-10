@@ -3,7 +3,7 @@ permalink: /:year/:month/:day/:title.html
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
-highlighter: pygments
+highlighter: rouge
 #auto: true
 baseurl:
 
@@ -16,7 +16,13 @@ destination: ./._site
 plugins_dir: ./_plugins
 markdown:    kramdown
 kramdown:
-  input: GFM
+  #input: GFM
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
 production_url : http://midoks.github.io/
 short_name : midoks
@@ -35,7 +41,7 @@ title: GitHub博客
 res_url : http://midoks.github.io/resources/
 categories: [test, sample]
 author :
-  name : 陈江山
+  name : midoks
   email : midoks@163.com
   github : midoks@github.com
   weibo : http://weibo.com/midoks
