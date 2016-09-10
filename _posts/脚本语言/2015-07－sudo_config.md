@@ -1,7 +1,7 @@
 ---
 layout: post
-title: WP微信机器人
-tag: ['WP微信机器人', 'PHP', 'WordPress']
+title: sudo设置
+tag: ['sudo设置', 'shell']
 category: ['脚本语言']
 a_id: 1
 ---
