@@ -1,5 +1,5 @@
 <!-- 特殊设置 start -->
-<div style="height:163px;width:40px;position:fixed;bottom:35px;left:10px;overflow:hidden;cursor:pointer;" id="mirror_midoks">
+<!-- <div style="height:163px;width:40px;position:fixed;bottom:35px;left:10px;overflow:hidden;cursor:pointer;" id="mirror_midoks">
 	<div style="height:40px;margin-top:1px;" title="host">
 		<img src="/resources/img/source.png" style="height:40px;margin-top:1px;cursor:pointer;" />
 	</div>
@@ -35,7 +35,7 @@ $("#mirror_midoks").children().each(function(i){
 	});
 });
 </script>
-
+ -->
 
 <style>
 /*其他css返回顶部 start*/
@@ -166,13 +166,18 @@ window.onload = function(){
 	height: 15px;
 }
 </style>
+
 <!-- 底部设置 start -->
 <div class="footer" style="margin-top:5px;">
 	<div class="container">
 		<div class="row">
-			<p style="text-align:center;" class="p_img">Powered By GitHub,Jekyll,Bootstrap <span class="visible-xs-inline"><br/></span><span class="hidden-xs"> | </span> Design By Midoks | midoks.github.io All Rights Reserverd</p>
+			<p style="text-align:center;" class="p_img">
+				Powered By GitHub,
+				<a href="https://www.jekyll.com.cn/" target="_black">Jekyll</a>
+				,Bootstrap
+				<span class="visible-xs-inline"><br/></span>
+				<span class="hidden-xs"> | </span> Design By Midoks | midoks.github.io All Rights Reserverd</p>
 			<p style="text-align:center;" class="p_img">最近更新时间:{{ site.time | date_to_rfc822 }} <span class="visible-xs-inline"><br/></span><span class="hidden-xs"> | </span> midoks#163.com(#替换成@,欢迎交流)</p>
-
 			{% include tongji.html %}
 		</div>
 	</div>

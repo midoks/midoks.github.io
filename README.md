@@ -1,6 +1,7 @@
-midoks.github.io
+记录人生,不忘初心
 ================
 
+愿在路上奔跑
 <!-- test -->
 <!-- {% for j in page %}
     <a>{{ j }}</a><br />
