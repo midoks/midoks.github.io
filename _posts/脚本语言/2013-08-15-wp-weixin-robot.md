@@ -6,15 +6,15 @@ category: ['脚本语言']
 a_id: 1
 ---
 
-###前言
+### 前言
 这个插件不是很难,却让我感受到了互联网上人与人的连接。也通过网友需求,我把这个插件开发的较为完整了。
 我会随着微信平台的发展而继续开发。感谢互联网,感谢网友。
 
-###插件地址
+### 插件地址
 － [wordpress.org/plugins/wp-weixin-robot/](http://wordpress.org/plugins/wp-weixin-robot/)
 
 
-###版本更替
+### 版本更替
 - 5.2.25
 	* 增加long2short接口(长链接转化为短链接)[weixin-core.class.php]
 	* 增加智能接口->语意理解接口。
