@@ -3,7 +3,7 @@ layout: post
 title: javascrpt的柯里化和反柯里化
 tag: ['javascrpt的柯里化和反柯里化', 'javascript']
 category: ['脚本语言']
-a_id: 20
+a_id: 21
 ---
 
 在上网找到的一种概念,值得深入学习一下。
