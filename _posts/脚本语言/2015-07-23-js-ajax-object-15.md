@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ajax原理和XmlHttpRequest对象
-tag: ['ajax原理和XmlHttpRequest对象', 'javascript']
+tag: ['javascript']
 category: ['脚本语言']
 a_id: 15
 ---

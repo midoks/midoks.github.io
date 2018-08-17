@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WordPress代码备份插件
-tag: ['WordPress代码备份插件', 'PHP', 'WordPress']
+tag: ['PHP', 'WordPress']
 category: ['脚本语言']
 a_id: 18
 ---

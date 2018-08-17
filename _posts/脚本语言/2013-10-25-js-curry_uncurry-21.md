@@ -1,7 +1,7 @@
 ---
 layout: post
 title: javascrpt的柯里化和反柯里化
-tag: ['javascrpt的柯里化和反柯里化', 'javascript']
+tag: ['javascript']
 category: ['脚本语言']
 a_id: 21
 ---

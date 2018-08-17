@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ECShop的插件机制实现
-tag: ['ECShop的插件机制实现', 'PHP']
+tag: ['PHP']
 category: ['脚本语言']
 a_id: 13
 ---

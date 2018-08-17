@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JavaScript的call和apply使用
-tag: ['JavaScript的call和apply使用', 'javascript']
+tag: ['javascript']
 category: ['脚本语言']
 a_id: 20
 ---
