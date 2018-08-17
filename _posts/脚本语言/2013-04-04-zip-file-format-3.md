@@ -1,7 +1,7 @@
 ---
 layout: post
 title: zip通用压缩文件格式说明
-tag: ['php', '算法']
+tag: ['php']
 category: ['算法']
 a_id: 3
 ---
