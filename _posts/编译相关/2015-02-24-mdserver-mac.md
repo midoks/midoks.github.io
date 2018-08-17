@@ -6,7 +6,6 @@ categories: ['编译语言']
 a_id: 4
 ---
 
-### 前言
 mdserver-mac是我在mac上开发一款在php集成环境。你可以随意定制自己PHP扩展,可以对PHP,Nginx进行二次开发。
 
 ### 软件地址
