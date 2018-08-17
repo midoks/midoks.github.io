@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WP微信机器人
-tag: ['PHP', 'WordPress']
+tag: ['php', 'wordpress']
 category: ['脚本语言']
 a_id: 1
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: sudo设置
-tag: ['sudo设置', 'shell']
+tag: ['shell']
 category: ['脚本语言']
 a_id: 9
 ---

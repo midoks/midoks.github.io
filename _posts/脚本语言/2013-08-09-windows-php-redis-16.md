@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 在windows使用php扩展redis应用
-tag: ['PHP']
+tag: ['php']
 category: ['脚本语言']
 a_id: 16
 ---
