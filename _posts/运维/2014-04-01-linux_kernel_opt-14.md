@@ -1,7 +1,7 @@
 ---
 layout: post
 title: linux内核参数优化
-tag: ['linux内核参数优化', 'Lunix']
+tag: ['Lunix']
 category: ['运维']
 a_id: 14
 ---
