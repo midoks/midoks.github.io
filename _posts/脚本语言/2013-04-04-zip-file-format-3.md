@@ -11,7 +11,7 @@ ZIP文件由三部分构成:压缩文件的内容数据、压缩的目录源数�
 ### 压缩的文件内容源数据
 
 记录着压缩的所有文件的内容信息,其数据组织结构是对于每个文件都由file header、file data、data descriptor三部分组成:
-1.file header:用于标示该文件的开始,结构说明如下:
+- 1.file header:用于标示该文件的开始,结构说明如下:
 
 <table class="table table-bordered">
 <tr><td>offset(偏移位移)</td><td>bytes(字节)</td><td>description(描述)</td><td>含义</td></tr>
@@ -30,8 +30,8 @@ ZIP文件由三部分构成:压缩文件的内容数据、压缩的目录源数�
 <tr><td>30+n</td><td>m</td><td>Extra field</td><td>扩展区</td></tr>
 </table>
 
-2.file data:相应压缩文件的源数据。
-3.data descriptor:用于标识该文件压缩结束,该结构只有在相应的header中通用标记字段的第3位设为1时才会出现,紧接在压缩文件源数据后,这个数据描述符只用在不能对输出的zip文件进行检索时使用。例如:在一个不能检索的驱动器(如:磁带机上)的ZIP文件中。如果是磁盘上的zip文件一般没有这个数据描述符。结构说明如下
+- 2.file data:相应压缩文件的源数据。
+- 3.data descriptor:用于标识该文件压缩结束,该结构只有在相应的header中通用标记字段的第3位设为1时才会出现,紧接在压缩文件源数据后,这个数据描述符只用在不能对输出的zip文件进行检索时使用。例如:在一个不能检索的驱动器(如:磁带机上)的ZIP文件中。如果是磁盘上的zip文件一般没有这个数据描述符。结构说明如下
 
 <table class="table table-bordered">
 <tr><td>offset(偏移位移)</td><td>bytes(字节)</td><td>description(描述)</td><td>含义</td></tr>
@@ -41,9 +41,11 @@ ZIP文件由三部分构成:压缩文件的内容数据、压缩的目录源数�
 <tr><td>12</td><td>4</td><td>Uncompressed size</td><td>未压缩大小</td></tr>
 </table>
 
+
 ### 压缩的目录源数据
 
-对于压缩的目录而言,每一个子目录对应一个压缩目录源数据,记录该目录的描述信息。压缩包中所有目录源数据连续存储在整个归档包的最后,这样便于向包中追加新的文件。结构说明如下
+对于压缩的目录而言,每一个子目录对应一个压缩目录源数据,记录该目录的描述信息。
+压缩包中所有目录源数据连续存储在整个归档包的最后,这样便于向包中追加新的文件。结构说明如下
 
 <table class="table table-bordered">
 <tr><td>offset(偏移位移)</td><td>bytes(字节)</td><td>description(描述)</td><td>含义</td></tr>
@@ -87,19 +89,19 @@ ZIP文件由三部分构成:压缩文件的内容数据、压缩的目录源数�
 
 ### 压缩方法的选取
 
-0 - The file is stored (no compression)
-1 - The file is Shrunk
-2 - The file is Reduced with compression factor 1
-3 - The file is Reduced with compression factor 2
-4 - The file is Reduced with compression factor 3
-5 - The file is Reduced with compression factor 4
-6 - The file is Imploded
-7 - Reserved for Tokenizing compression algorithm
-8 - The file is Deflated
-9 - Enhanced Deflating using Deflate64(tm)
-10 - PKWARE Data Compression Library Imploding
-11 - Reserved by PKWARE
-12 - File is compressed using BZIP2 algorithm
+- 0 - The file is stored (no compression)
+- 1 - The file is Shrunk
+- 2 - The file is Reduced with compression factor 1
+- 3 - The file is Reduced with compression factor 2
+- 4 - The file is Reduced with compression factor 3
+- 5 - The file is Reduced with compression factor 4
+- 6 - The file is Imploded
+- 7 - Reserved for Tokenizing compression algorithm
+- 8 - The file is Deflated
+- 9 - Enhanced Deflating using Deflate64(tm)
+- 10 - PKWARE Data Compression Library Imploding
+- 11 - Reserved by PKWARE
+- 12 - File is compressed using BZIP2 algorithm
 
 ### 相关链接
 [zip](https://github.com/midoks/midoks/blob/master/Algorithm/zip.class.php)
