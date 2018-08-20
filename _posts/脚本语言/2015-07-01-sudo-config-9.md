@@ -20,7 +20,6 @@ passwd test1
 ```
 ### 修改sudo的权限
 ```
-view sourceprint?
 vi /etc/sudoers
 ```
 ## 全部的权限
