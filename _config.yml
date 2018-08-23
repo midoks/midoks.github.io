@@ -53,7 +53,7 @@ tags_path : /tags.html
 about_path : /about.html
 
 #基本参数
-title: GitHub博客
+title: midoks
 res_url : http://www.cachecha.com/resources/
 categories: [test, sample]
 author :
