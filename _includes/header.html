@@ -96,14 +96,25 @@ function isLocal(){
 }
 
 if (!isLocal()){
+  //google ad
   $.getScript("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",function(){
     (adsbygoogle = window.adsbygoogle || []).push({
       google_ad_client: "ca-pub-7736695762519033",
       enable_page_level_ads: true
     });
   });
+
+  //百度统计
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?c66706e0fc1b6293a62f8eba588390ec";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
 }
 </script>
+
 </head>
 <body>
 
