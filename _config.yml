@@ -38,14 +38,11 @@ kramdown:
     bold_every: 10
     css: style
 
-
-
 redcloth:
   hard_breaks: true
 
-production_url : http://midoks.github.io/
+production_url : http://www.cachecha.com
 short_name : midoks
-
 
 tagline: 前端开发，javascript，html，css，ajax，用户体验，交互设计
 feed: /atom.xml
@@ -57,7 +54,7 @@ about_path : /about.html
 
 #基本参数
 title: GitHub博客
-res_url : http://midoks.github.io/resources/
+res_url : http://www.cachecha.com/resources/
 categories: [test, sample]
 author :
   name : midoks
