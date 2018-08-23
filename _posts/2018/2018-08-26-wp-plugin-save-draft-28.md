@@ -1,6 +1,6 @@
 ---
 layout: post
-title: wordpress禁止后台显示更新
+title: 关于WP自动草稿、自动保存的问题
 tag: [php']
 categories: ['脚本语言']
 a_id: 28
