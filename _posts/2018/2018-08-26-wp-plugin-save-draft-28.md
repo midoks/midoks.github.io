@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 关于WP自动草稿、自动保存的问题
-tag: [php']
+tag: ['php']
 categories: ['脚本语言']
 a_id: 28
 ---

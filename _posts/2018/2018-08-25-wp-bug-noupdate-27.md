@@ -1,7 +1,7 @@
 ---
 layout: post
 title: wordpress禁止后台显示更新
-tag: [php']
+tag: ['php']
 categories: ['脚本语言']
 a_id: 27
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WP微信机器人无法响应原因之一(BOM)
-tag: [php']
+tag: ['php']
 categories: ['脚本语言']
 a_id: 29
 ---
