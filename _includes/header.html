@@ -96,6 +96,14 @@ function isLocal(){
 }
 
 if (!isLocal()){
+  var targetProtocol = "https:";
+  if (window.location.protocol != targetProtocol){
+      window.location.href = targetProtocol
+      + window.location.href.substring(window.location.protocol.length);
+  }
+}
+
+if (!isLocal()){
   //google ad
   $.getScript("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",function(){
     (adsbygoogle = window.adsbygoogle || []).push({
