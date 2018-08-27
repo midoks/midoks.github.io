@@ -41,7 +41,7 @@ kramdown:
 redcloth:
   hard_breaks: true
 
-production_url : http://www.cachecha.com
+production_url : https://www.cachecha.com
 short_name : midoks
 
 tagline: 前端开发，javascript，html，css，ajax，用户体验，交互设计
@@ -54,7 +54,7 @@ about_path : /about.html
 
 #基本参数
 title: midoks
-res_url : http://www.cachecha.com/resources/
+res_url : https://www.cachecha.com/resources/
 categories: [test, sample]
 author :
   name : midoks
