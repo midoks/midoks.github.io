@@ -12,7 +12,7 @@ a_id: 30
 
 - https://www.youtube.com/channel/UCDg-YmnNehm3KB0BpytkUJg
 
-### 全部地址
+### 地址列表
 
 |序号|地址|译名|
 |-|-|-----------------|
