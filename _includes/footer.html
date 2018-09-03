@@ -36,74 +36,73 @@ $("#mirror_midoks").children().each(function(i){
 });
 </script>
  -->
-
 <style>
 /*其他css返回顶部 start*/
-.midoks_returnTop{
-	position:fixed;
-	bottom:35px;
-	right:20px;
-	width:40px;
-	height:40px;
-	background:#666;
-	cursor: pointer;
-	display:none;
+
+.midoks_returnTop {
+    position: fixed;
+    bottom: 35px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: #666;
+    cursor: pointer;
+    display: none;
 }
-.midoks_returnTop .m{
-	position:absolute;
-	top:-2px;
-	_top:-20px;
-	width:0px;
-	height:0px;
-	left:10px;
-	border-width:10px;
-	border-color:transparent transparent #FFFFFF;
-	border-style: dashed dashed solid;
+
+.midoks_returnTop .m {
+    position: absolute;
+    top: -2px;
+    _top: -20px;
+    width: 0px;
+    height: 0px;
+    left: 10px;
+    border-width: 10px;
+    border-color: transparent transparent #FFFFFF;
+    border-style: dashed dashed solid;
 }
-.midoks_returnTop .i{
-	position:absolute;
-	top:18px;
-	left:16px;
-	height:12px;
-	width:8px;
-	background:#FFFFFF;
+
+.midoks_returnTop .i {
+    position: absolute;
+    top: 18px;
+    left: 16px;
+    height: 12px;
+    width: 8px;
+    background: #FFFFFF;
 }
 </style>
-
-<div><div class="midoks_returnTop"><span class="m"></span><span class="i"></span></div></div>
-
-
+<div>
+    <div class="midoks_returnTop"><span class="m"></span><span class="i"></span></div>
+</div>
 <!-- 特殊设置 end -->
-
 <hr/>
-
 <style type="text/css">
-.p_img{
-	padding:0px;
-	margin:0px;
+.p_img {
+    padding: 0px;
+    margin: 0px;
 }
-.p_img img{
-	width: 48px;
-	height: 15px;
+
+.p_img img {
+    width: 48px;
+    height: 15px;
 }
 </style>
-
 <!-- 底部设置 start -->
 <div class="footer" style="margin-top:5px;">
-	<div class="container">
-		<div class="row">
-			<p style="text-align:center;" class="p_img">
-				Powered By GitHub,
-				<a href="https://www.jekyll.com.cn/" target="_black">Jekyll</a>
-				,Bootstrap
-				<span class="visible-xs-inline"><br/></span>
-				<span class="hidden-xs"> | </span> Design By midoks | midoks.github.io All Rights Reserverd</p>
-			<p style="text-align:center;" class="p_img">最近更新时间:{{ site.time | date_to_rfc822 }} <span class="visible-xs-inline"><br/></span><span class="hidden-xs"> | </span> midoks#163.com(#替换成@,欢迎交流)</p>
-			{% include tongji.html %}
-		</div>
-	</div>
+    <div class="container">
+        <div class="row">
+            <p style="text-align:center;" class="p_img">
+                Powered By GitHub,
+                <a href="https://www.jekyll.com.cn/" target="_black">Jekyll</a> ,Bootstrap
+                <span class="visible-xs-inline"><br/></span>
+                <span class="hidden-xs"> | </span> Design By midoks | midoks.github.io All Rights Reserverd</p>
+            <p style="text-align:center;" class="p_img">最近更新时间:{{ site.time | date_to_rfc822 }} <span class="visible-xs-inline"><br/></span><span class="hidden-xs"> | </span> midoks#163.com(#替换成@,欢迎交流)</p>
+            {% include tongji.html %}
+        </div>
+    </div>
 </div>
 <!-- 底部设置 end -->
 <!-- <script src="/resources/js/m.js"></script> -->
 </body>
+
 </html>

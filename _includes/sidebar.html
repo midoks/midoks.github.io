@@ -1,61 +1,81 @@
 <div class="panel panel-default" style="marigin:1px;">
-
-	<div class="panel-heading">我的微博</div>
-	<div class="panel-body">
-	    <p><iframe width="100%" height="385" class="share_self"  frameborder="0" scrolling="no" src="https://widget.weibo.com/weiboshow/index.php?language=&width=0&height=385&fansRow=1&ptype=0&speed=0&skin=5&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=1504761980&verifier=2163a5e7&dpc=1"></iframe></p>
-	</div>
-
-	{% include sidebar-soso.html %}
-
-	<div class="panel-heading">分类</div>
-	<div class="panel-body">
-		{% for category in site.categories %}
-		  <span><a href="/cat.html#{{ category[0] }}-ref">{{ category[0] | join: "/" }}</a></span>
-		{% endfor %}
-	</div>
-
-	<div class="panel-heading">标签</div>
-	<div class="panel-body">
-		{% for tag in site.tags %}
-		  <span><a href="/tag.html#{{ tag[0] }}-ref">{{ tag[0] | join: "/" }}</a></span>
-		{% endfor %}
-	</div>
-
-	<div class="panel-heading">学习链接</div>
-	<table class="table">
-			<tr><td><a href="http://museum.php.net/" target="_blank">PHP源码</a></td></tr>
-	    <tr><td><a href="http://man.chinaunix.net/develop/c&c++/linux_c/default.htm" target="_blank">Linux 常用C函数（中文版）</a></td></tr>
-
-	    <tr><td><a href="http://jekyllcn.com/docs/pages/" target="_blank">jekyll使用</a></td></tr>
-	    <tr><td><a href="http://v3.bootcss.com/getting-started/" target="_blank">Bootstrap手册</a></td></tr>
-	    <tr><td><a href="https://developer.apple.com/programs/mac/resources.html" target="_blank">Mac Developer Program</a></td></tr>
-	    <tr><td><a href="https://developer.apple.com/programs/ios/develop.html" target="_blank">iOS Developer Program</a></td></tr>
-	    <tr><td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript</a></td></tr>
-
-	    <tr><td><a href="http://oss.org.cn/kernel-book/" target="_blank">深入分析Linux内核源码</a></td></tr>
-	    <tr><td><a href="https://guides.github.com/features/mastering-markdown/" target="_blank">Mastering-Markdown</a></td></tr>
-
-	    <tr><td><a href="http://re2c.org/" target="_blank">re2c</a></td></tr>
-
-		<tr><td><a href="http://www.gnu.org/software/bison/" target="_blank">Bison</a></td></tr>
-		<tr><td><a href="https://docs.fluentd.org/v0.12/articles/quickstart" target="_blank">fluentd</a></td></tr>
-
-		<tr><td><a href="https://moonbingbing.gitbooks.io/openresty-best-practices/" target="_blank">OpenResty最佳实践</a></td></tr>
-
-		<tr><td><a href="https://www.collab.net/" target="_blank">csvn</a></td></tr>
-		<tr><td><a href="http://gogs.io/" target="_blank">git</a></td></tr>
-		
-		<tr><td><a href="https://www.chromium.org/developers/" target="_blank">chromium</a></td></tr>
-		
-	</table>
-
-
-	<div class="panel-heading">PHP自动搭建</div>
-	<table class="table">
-		<tr><td><a href="https://lnmp.org/" target="_blank">lnmp</a></td></tr>
-	    <tr><td><a href="https://amh.sh" target="_blank">amh</a></td></tr>
-	</table>
-
-	<div class="panel-heading">捐赠我(支付宝扫描)</div>
-	<div class="panel-body" style="text-align:center;"><img src="/resources/img/mini_alipay.png"/></div>
+    <div class="panel-heading">我的微博</div>
+    <div class="panel-body">
+        <p>
+            <iframe width="100%" height="385" class="share_self" frameborder="0" scrolling="no" src="https://widget.weibo.com/weiboshow/index.php?language=&width=0&height=385&fansRow=1&ptype=0&speed=0&skin=5&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=1504761980&verifier=2163a5e7&dpc=1"></iframe>
+        </p>
+    </div>
+    {% include sidebar-soso.html %}
+    <div class="panel-heading">分类</div>
+    <div class="panel-body">
+        {% for category in site.categories %}
+        <span><a href="/cat.html#{{ category[0] }}-ref">{{ category[0] | join: "/" }}</a></span> {% endfor %}
+    </div>
+    <div class="panel-heading">标签</div>
+    <div class="panel-body">
+        {% for tag in site.tags %}
+        <span><a href="/tag.html#{{ tag[0] }}-ref">{{ tag[0] | join: "/" }}</a></span> {% endfor %}
+    </div>
+    <div class="panel-heading">学习链接</div>
+    <table class="table">
+        <tr>
+            <td><a href="http://museum.php.net/" target="_blank">PHP源码</a></td>
+        </tr>
+        <tr>
+            <td><a href="http://man.chinaunix.net/develop/c&c++/linux_c/default.htm" target="_blank">Linux 常用C函数（中文版）</a></td>
+        </tr>
+        <tr>
+            <td><a href="http://jekyllcn.com/docs/pages/" target="_blank">jekyll使用</a></td>
+        </tr>
+        <tr>
+            <td><a href="http://v3.bootcss.com/getting-started/" target="_blank">Bootstrap手册</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://developer.apple.com/programs/mac/resources.html" target="_blank">Mac Developer Program</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://developer.apple.com/programs/ios/develop.html" target="_blank">iOS Developer Program</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript</a></td>
+        </tr>
+        <tr>
+            <td><a href="http://oss.org.cn/kernel-book/" target="_blank">深入分析Linux内核源码</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://guides.github.com/features/mastering-markdown/" target="_blank">Mastering-Markdown</a></td>
+        </tr>
+        <tr>
+            <td><a href="http://re2c.org/" target="_blank">re2c</a></td>
+        </tr>
+        <tr>
+            <td><a href="http://www.gnu.org/software/bison/" target="_blank">Bison</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://docs.fluentd.org/v0.12/articles/quickstart" target="_blank">fluentd</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://moonbingbing.gitbooks.io/openresty-best-practices/" target="_blank">OpenResty最佳实践</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.collab.net/" target="_blank">csvn</a></td>
+        </tr>
+        <tr>
+            <td><a href="http://gogs.io/" target="_blank">git</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.chromium.org/developers/" target="_blank">chromium</a></td>
+        </tr>
+    </table>
+    <div class="panel-heading">PHP自动搭建</div>
+    <table class="table">
+        <tr>
+            <td><a href="https://lnmp.org/" target="_blank">lnmp</a></td>
+        </tr>
+        <tr>
+            <td><a href="https://amh.sh" target="_blank">amh</a></td>
+        </tr>
+    </table>
+    <div class="panel-heading">捐赠我(支付宝扫描)</div>
+    <div class="panel-body" style="text-align:center;"><img src="/resources/img/mini_alipay.png" /></div>
 </div>
