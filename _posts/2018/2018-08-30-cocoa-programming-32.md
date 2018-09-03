@@ -10,7 +10,7 @@ a_id: 30
 找了很久,才在国外网站(https://www.youtube.com)上找到
 比较容易入门的视频教程,在这记录一下，希望对你也有用处。
 
-- https://www.youtube.com/channel/UCDg-YmnNehm3KB0BpytkUJg
+- [Cocoa Tutorials](https://www.youtube.com/channel/UCDg-YmnNehm3KB0BpytkUJg)
 
 ### 地址列表
 
