@@ -14,3 +14,14 @@ a_id: 30
 
 ### 全部地址
 
+|序号|地址|译名|
+|-|-|-----------------|
+|L1|[Programming L1 - Getting Started](https://www.youtube.com/watch?v=X_MJd8wqTBM&list=PLE83F832121568D36)|开始入门|
+|L2|[Cocoa Programming L2 - Application Overview](https://www.youtube.com/watch?v=7vy7pEpEYvk&index=2&list=PLE83F832121568D36)|应用概述|
+|L3|[Cocoa Programming L3 - Building an Interface](https://www.youtube.com/watch?v=GLxTuluYdZg&index=3&list=PLE83F832121568D36)|创建界面|
+|L4|[Cocoa Programming L4 - Making Connections](https://www.youtube.com/watch?v=CgrDSW0dHy4&list=PLE83F832121568D36&index=4)|界面接口连接|
+|L5|[Cocoa Programming L5 - awakeFromNib](https://www.youtube.com/watch?v=w3t5AFnpdX8&index=5&list=PLE83F832121568D36)|awakeFromNib|
+|……|……|……|
+
+
+
