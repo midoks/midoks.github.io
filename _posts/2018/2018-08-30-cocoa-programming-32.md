@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cocoa Programming
+title: Cocoa Programming(Mac桌面开发视频教程)
 tag: ['object-c']
 categories: ['Mac桌面开发']
 a_id: 30
