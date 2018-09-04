@@ -21,6 +21,8 @@ a_id: 30
 |L3|[Cocoa Programming L3 - Building an Interface](https://www.youtube.com/watch?v=GLxTuluYdZg&index=3&list=PLE83F832121568D36)|创建界面|
 |L4|[Cocoa Programming L4 - Making Connections](https://www.youtube.com/watch?v=CgrDSW0dHy4&list=PLE83F832121568D36&index=4)|界面接口连接|
 |L5|[Cocoa Programming L5 - awakeFromNib](https://www.youtube.com/watch?v=w3t5AFnpdX8&index=5&list=PLE83F832121568D36)|awakeFromNib|
+|L6|[Cocoa Programming L6 - Size Attributes](https://www.youtube.com/watch?v=6RTdxxRqrqM&index=6&list=PLE83F832121568D36)|尺寸属性|
+|L7|[Cocoa Programming L7 - NSDatePicker](https://www.youtube.com/watch?v=_p1uYXBQwdM&index=7&list=PLE83F832121568D36)|NSDatePicker|
 |……|……|……|
 
 
