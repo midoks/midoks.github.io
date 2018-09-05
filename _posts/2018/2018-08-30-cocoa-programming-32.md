@@ -23,6 +23,11 @@ a_id: 30
 |L5|[Cocoa Programming L5 - awakeFromNib](https://www.youtube.com/watch?v=w3t5AFnpdX8&index=5&list=PLE83F832121568D36)|awakeFromNib|
 |L6|[Cocoa Programming L6 - Size Attributes](https://www.youtube.com/watch?v=6RTdxxRqrqM&index=6&list=PLE83F832121568D36)|尺寸属性|
 |L7|[Cocoa Programming L7 - NSDatePicker](https://www.youtube.com/watch?v=_p1uYXBQwdM&index=7&list=PLE83F832121568D36)|NSDatePicker|
+|L8|[Cocoa Programming L8 - NSSlider](https://www.youtube.com/watch?v=uv5omwYXhBI&list=PLE83F832121568D36&index=8)|NSSlider|
+|L9|[Cocoa Programming L9 - NSPopUpButton](https://www.youtube.com/watch?v=RKYSY2Ey9Os&list=PLE83F832121568D36&index=9)|NSPopUpButton|
+|L10|[Cocoa Programming L10 - NSImageView](https://www.youtube.com/watch?v=OlXyu4uLyoY&list=PLE83F832121568D36&index=10)|NSImageView|
+|L11|[Cocoa Programming L11 - App Icon](https://www.youtube.com/watch?v=kK085XnpHJI&list=PLE83F832121568D36&index=11)|App Icon|
+|L12|[Cocoa Programming L12 - Sharing Apps](https://www.youtube.com/watch?v=B0wEDUbGfvE&list=PLE83F832121568D36&index=12)|Sharing Apps|
 |……|……|……|
 
 
