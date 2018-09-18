@@ -2,7 +2,7 @@
 layout: post
 title: 记录一个线上问题解决流程
 tag: ['php']
-categories: ['php']
+categories: ['脚本语言']
 a_id: 33
 ---
 
