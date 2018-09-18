@@ -3,7 +3,7 @@ layout: post
 title: Cocoa Programming(Mac桌面开发视频教程)
 tag: ['object-c']
 categories: ['Mac桌面开发']
-a_id: 30
+a_id: 32
 ---
 
 我在学习macosx桌面开发时,发现资料在中国很少。
