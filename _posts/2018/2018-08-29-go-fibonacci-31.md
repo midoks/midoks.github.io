@@ -2,7 +2,7 @@
 layout: post
 title: Go实现的斐波那契数列
 tag: ['go']
-categories: ['编译语言']
+categories: ['编译语言','算法']
 a_id: 31
 ---
 
