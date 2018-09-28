@@ -1,7 +1,7 @@
 ---
 layout: post
 title: mdserver-mac(PHP一键搭建环境)
-tag: ['object-c', 'php', 'nginx', 'mysql']
+tag: ['php']
 categories: ['编译语言']
 a_id: 4
 ---

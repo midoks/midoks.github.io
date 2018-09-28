@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mac桌面应用获取屏幕的宽高
-tag: ['mac', 'object-c']
+tag: ['object-c']
 category: ['Mac桌面开发']
 a_id: 5
 excerpt: Mac OSX 获取屏幕的高度和宽度

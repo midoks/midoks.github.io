@@ -1,7 +1,7 @@
 ---
 layout: post
 title: chrome扩展webtool
-tag: ['php', 'javascript']
+tag: ['javascript']
 categories: ['脚本语言']
 a_id: 26
 ---
