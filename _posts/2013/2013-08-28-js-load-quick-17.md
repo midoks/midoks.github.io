@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 高速加载JS代码
-tag: [ 'javascript']
+tag: ['javascript']
 category: ['脚本语言']
 a_id: 17
 ---
