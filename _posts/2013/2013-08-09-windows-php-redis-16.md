@@ -7,9 +7,9 @@ a_id: 16
 ---
 
 ```
-- 1.redis:http://code.google.com/p/servicestack/wiki/RedisWindowsDownload
-- 2.php_redis(phpredis扩展):https://github.com/nicolasff/phpredis/downloads
-- 3.(自己欣赏)redis的源码地址:https://github.com/ServiceStack/ServiceStack.Redis
+- redis:http://code.google.com/p/servicestack/wiki/RedisWindowsDownload
+- php_redis(phpredis扩展):https://github.com/nicolasff/phpredis/downloads
+- (自己欣赏)redis的源码地址:https://github.com/ServiceStack/ServiceStack.Redis
 - http://code.google.com/p/redis/downloads/list
 - 前提条件:PHP的环境已搭建好!
 ```
