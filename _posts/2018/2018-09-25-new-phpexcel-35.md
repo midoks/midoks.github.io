@@ -9,7 +9,7 @@ a_id: 35
 PHP操作Excel最好的方法是使用PHPExcel类, 可以到官网下载PHPExcel类库。新版PHPExcel(1.8使用)
 
 ### 官网下载
-- https://github.com/PHPOffice/PHPExcel
+- [PHPExcel](https://github.com/PHPOffice/PHPExcel)
 
 ### 读
 ```
