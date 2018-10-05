@@ -94,7 +94,4 @@ sysctl  -p
 ```
 
 ### 参考
-- https://www.ibm.com/developerworks/cn/linux/l-hisock.html
-- http://wiki.debian.org.hk/w/File:/proc/sys
-
-
+- [提高Linux上socket性能](https://www.ibm.com/developerworks/cn/linux/l-hisock.html)

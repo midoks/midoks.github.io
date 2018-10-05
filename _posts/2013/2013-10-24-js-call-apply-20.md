@@ -108,7 +108,7 @@ apply和call的区别:
 2.传递上下文功能相反。
 
 ## 参考
-- http://www.cnblogs.com/sweting/archive/2009/12/21/1629204.html
-- http://uule.iteye.com/blog/1158829
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call?redirectlocale=en-US&amp;redirectslug=JavaScript%2FReference%2FGlobal_Objects%2FFunction%2Fcall
-- https://blog.csdn.net/ithomer/article/details/6592082
+- [js call](http://www.cnblogs.com/sweting/archive/2009/12/21/1629204.html)
+- [JS中的call()和apply()方法](http://uule.iteye.com/blog/1158829)
+- [Function.prototype.call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call?redirectlocale=en-US&amp;redirectslug=JavaScript%2FReference%2FGlobal_Objects%2FFunction%2Fcall)
+- [js中call与apply用法](https://blog.csdn.net/ithomer/article/details/6592082)

@@ -14,4 +14,4 @@ ecshop这款系统,在我工作之初就所接触,它是电商系统的还是比
 
 说了这么多,我把code地址放出来:
 
-－ [代码](https://github.com/midoks/midoks/tree/master/ec_plugins_install)
+－ [ec_plugins_install](https://github.com/midoks/midoks/tree/master/ec_plugins_install)

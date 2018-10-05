@@ -67,5 +67,5 @@ console.log(obj);
 
 如果没看懂,请点击参考2,讲的很好。
 
-- https://www.zhangxinxu.com/wordpress/2013/02/js-currying/
-- http://www.alloyteam.com/2013/08/javascript-zhong-you-qu-di-fan-ke-li-hua-ji-shu/
+- [JS中的柯里化-currying](https://www.zhangxinxu.com/wordpress/2013/02/js-currying/)
+- [Javascript中有趣的反柯里化技术](http://www.alloyteam.com/2013/08/javascript-zhong-you-qu-di-fan-ke-li-hua-ji-shu/)
