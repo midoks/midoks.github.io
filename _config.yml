@@ -54,7 +54,7 @@ about_path : /about.html
 
 #基本参数
 title: midoks
-res_url : https://www.cachecha.com/resources/
+res_url : https://www.cachecha.com/resources
 categories: [test, sample]
 author :
   name : midoks
