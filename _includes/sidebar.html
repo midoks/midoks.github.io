@@ -9,12 +9,12 @@
     <div class="panel-heading">分类</div>
     <div class="panel-body">
         {% for category in site.categories %}
-        <span><a href="/cat.html#{{ category[0] }}-ref">{{ category[0] | join: "/" }}</a></span> {% endfor %}
+        <span><a href="{{site.production_url}}/cat.html#{{ category[0] }}-ref">{{ category[0] | join: "/" }}</a></span> {% endfor %}
     </div>
     <div class="panel-heading">标签</div>
     <div class="panel-body">
         {% for tag in site.tags %}
-        <span><a href="/tag.html#{{ tag[0] }}-ref">{{ tag[0] | join: "/" }}</a></span> {% endfor %}
+        <span><a href="{{site.production_url}}/tag.html#{{ tag[0] }}-ref">{{ tag[0] | join: "/" }}</a></span> {% endfor %}
     </div>
     <div class="panel-heading">学习链接</div>
     <table class="table">

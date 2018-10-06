@@ -66,8 +66,8 @@
     
     </style>
     <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-    <script src="/resources/js/jquery.min.js"></script>
-    <script src="/resources/js/bootstrap.min.js"></script>
+    <script src="{{site.production_url}}/resources/js/jquery.min.js"></script>
+    <script src="{{site.production_url}}/resources/js/bootstrap.min.js"></script>
     <!-- <script src="/resources/js/highlight.min.js"></script> -->
     <!-- <script src="/resources/js/remarkable.js"></script> -->
     <title>{{site.title}}-{% if page.title %}{{ page.title }}{% else %}为回忆,留下我的足迹。不忘初心。{% endif %}</title>
@@ -162,12 +162,12 @@
                             <li><a href="https://github.com/midoks/checkword" target="_blank">敏感词检测</a></li>
                         </ul>
                     </li>
-                    <li><a href="/cat.html">分类</a></li>
-                    <li><a href="/tag.html">标签</a></li>
+                    <li><a href="{{site.production_url}}/cat.html">分类</a></li>
+                    <li><a href="{{site.production_url}}/tag.html">标签</a></li>
                     <!-- <li><a href="/atom.html">ATOM</a></li> -->
                 </ul>
                 <ul class="nav navbar-nav navbar-right hidden-sm">
-                    <li><a href="/about.html">关于我</a></li>
+                    <li><a href="{{site.production_url}}/about.html">关于我</a></li>
                 </ul>
             </div>
     </nav>
