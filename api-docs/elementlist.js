@@ -44,6 +44,21 @@ ApiGen.elements = [
     ["c", "XMLParse"]
 ];
 
+function isLocal() {
+    var local_url = "http://127.0.0.1:4000/";
+    if (location.href.substr(0, local_url.length) == local_url) {
+        return true;
+    }
+    return false;
+}
+
+if (!isLocal()) {
+    var targetProtocol = "https:";
+    if (window.location.protocol != targetProtocol) {
+        window.location.href = targetProtocol +
+            window.location.href.substring(window.location.protocol.length);
+    }
+}
 
 var _hmt = _hmt || [];
 (function() {
