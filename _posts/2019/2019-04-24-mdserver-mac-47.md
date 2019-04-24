@@ -1,6 +1,6 @@
 ---
 layout: post
-title: mdserver-mac(PHP一键搭建环境)
+title: mdserver-mac 3.0 (PHP一键搭建环境)
 tag: ['php']
 categories: ['编译语言']
 a_id: 24
