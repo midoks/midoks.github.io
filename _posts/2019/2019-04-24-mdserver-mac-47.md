@@ -6,8 +6,6 @@ categories: ['编译语言']
 a_id: 47
 ---
 
-- https://github.com/midoks/mdserver-mac
-
 ## mdserver(mac版) 3.1.0.3
 mac上高度可定制的PHP开发环境,集成必要的扩展,方便使用。
 (pkg安装方式),安装方便,是你Mac上的PHP开发利器。
@@ -25,6 +23,8 @@ mac上高度可定制的PHP开发环境,集成必要的扩展,方便使用。
 php54-73
 [redis,memecached,mongo,yaf,swoole,xhprof,...]
 ```
+
+- https://github.com/midoks/mdserver-mac
 
 ### 相关项目
 
