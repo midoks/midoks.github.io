@@ -15,6 +15,7 @@ a_id: 49
 * 网站备份
 * 自动更新优化
 * 插件[openresty,php,mysql,memcached,redis,pureftp,sphinx,rsync...]
+
 基本上可以使用,后续会继续优化!欢迎提供意见！
 
 ### 自动安装
