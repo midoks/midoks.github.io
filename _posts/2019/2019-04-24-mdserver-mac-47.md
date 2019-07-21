@@ -33,41 +33,27 @@ php54-73
 - 最新的安装脚本[mdserver-mac-reinstall](https://github.com/midoks/mdserver-mac-reinstall)对应目录->[/Applications/mdserver/bin/reinstall]
 
 ### 重要操作说明
+- 菜单[CMD]->php-ext-init->install(解决大部分的依赖问题)
 
-```
-菜单[CMD]->php-ext-init->install(解决大部分的依赖问题)
-```
 
 ### 版本版本
 
 - 3.2.0.0
-
-```
-* 支持PHP版本菜单[Command]下直接进入命令行,并自动设置当前PHP变量。
-* 支持CMD菜单下应用的安装、启动、停止、卸载。
-```
+	* 支持PHP版本菜单[Command]下直接进入命令行,并自动设置当前PHP变量。
+	* 支持CMD菜单下应用的安装、启动、停止、卸载。
 
 - 3.1.0.3
-
-```
-* 加入php74测试版
-* 解决PHP扩展intl,curl,swoole,openssl,yar,imagick依赖问题.
-```
+	* 加入php74测试版
+	* 解决PHP扩展intl,curl,swoole,openssl,yar,imagick依赖问题.
 
 - 3.0.2.2
-
-```
-* 加入xdebug扩展[php73编译没有通过]
-* 升级php部分版本
-* 修复一些配置错误
-```
+	* 加入xdebug扩展[php73编译没有通过]
+	* 升级php部分版本
+	* 修复一些配置错误
 
 - 3.0.1.2
-
-```
-* 减少php53的维护,但保留执行安装脚本
-* 加入pcntl扩展
-```
+	* 减少php53的维护,但保留执行安装脚本
+	* 加入pcntl扩展
 
 ### 文件说明
 - host(修改hosts命令)
