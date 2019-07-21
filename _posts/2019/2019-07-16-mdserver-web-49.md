@@ -1,6 +1,6 @@
 ---
 layout: post
-title: mdserver-web[Linux服务器上PHP集成管理界面]
+title: mdserver-web(Linux上的PHP集成管理界面)
 tag: ['python','php']
 categories: ['脚本语言']
 a_id: 49
@@ -36,4 +36,3 @@ curl -fsSL  https://raw.githubusercontent.com/midoks/mdserver-web/master/scripts
 
 ### wiki
 [了解更多...](https://github.com/midoks/mdserver-web/wiki)
-
