@@ -7,8 +7,10 @@ a_id: 47
 ---
 
 ## mdserver(mac版) 3.2.0.0
+
 mac上高度可定制的PHP开发环境,集成必要的扩展,方便使用。
 (pkg安装方式),安装方便,是你Mac上的PHP开发利器。
+
 - 支持80端口。
 - 配置memcached,redis,mongodb通用支持。
 - 配置MySQL5.6。
@@ -26,10 +28,10 @@ php54-73
 [redis,memecached,mongo,yaf,swoole,xhprof,...]
 ```
 
+## 项目地址
 - https://github.com/midoks/mdserver-mac
 
 ### 相关项目
-
 - 最新的安装脚本[mdserver-mac-reinstall](https://github.com/midoks/mdserver-mac-reinstall)对应目录->[/Applications/mdserver/bin/reinstall]
 
 ### 重要操作说明
