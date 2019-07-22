@@ -18,11 +18,15 @@ a_id: 49
 
 基本上可以使用,后续会继续优化!欢迎提供意见！
 
-### 自动安装
-`curl -fsSL  https://raw.githubusercontent.com/midoks/mdserver-web/master/scripts/install.sh | sh`
+### 一键自动安装
+```
+curl -fsSL  https://raw.githubusercontent.com/midoks/mdserver-web/master/scripts/install.sh | sh
+```
 
-### 更新
-`curl -fsSL  https://raw.githubusercontent.com/midoks/mdserver-web/master/scripts/update.sh | sh`
+### 自动更新
+```
+curl -fsSL  https://raw.githubusercontent.com/midoks/mdserver-web/master/scripts/update.sh | sh
+```
 
 ### 无图不真相
 [![截图](https://raw.githubusercontent.com/midoks/mdserver-web/master/route/static/mdw.jpg)](https://raw.githubusercontent.com/midoks/mdserver-web/master/route/static/mdw.jpg)
