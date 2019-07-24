@@ -1,12 +1,12 @@
 ---
 layout: post
-title: mdserver-web[Linux服务器上PHP集成管理界面]
+title: mdserver-web 0.7.3 (PHP集成管理界面)
 tag: ['python','php']
 categories: ['脚本语言']
 a_id: 49
 ---
 
-### releases 0.7.3
+### mdserver-web 0.7.3
 简单的Linux面板,感谢BT.CN写出如此好的web管理软件。我一看到，就知道这是我一直想要的页面化管理方式。
 复制了后台管理界面，按照自己想要的方式写了一版。
 * ssh工具优化
