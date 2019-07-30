@@ -13,3 +13,7 @@
     padding-top: 0px;
     padding-bottom: 0px;
 }
+
+#content pre.highlight .rouge-code pre {
+    margin-bottom: 0px;
+}
