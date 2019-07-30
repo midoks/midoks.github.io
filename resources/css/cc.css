@@ -7,6 +7,7 @@
 #content pre.highlight .lineno {
     padding-top: 0px;
     padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 #content pre.highlight .rouge-code {
