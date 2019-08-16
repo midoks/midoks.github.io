@@ -1,0 +1,18 @@
+<script src="{{site.production_url}}/resources/js/jquery.min.js"></script>
+<script type="text/javascript">
+ function isLocal() {
+    var local_url = "http://127.0.0.1:4000/";
+    if (location.href.substr(0, local_url.length) == local_url) {
+        return true;
+    }
+    return false;
+}
+if (!isLocal()) { //google ad
+    $.getScript("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", function() {
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-7736695762519033",
+            enable_page_level_ads: true,
+        });
+    });
+}
+</script>
