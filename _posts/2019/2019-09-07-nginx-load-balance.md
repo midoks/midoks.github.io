@@ -15,6 +15,7 @@ upstream backserver {
     server 192.168.0.15;
 }
 ```
+
 2、weight
 指定轮询几率，weight和访问比率成正比，用于后端服务器性能不均的 
 情况。
