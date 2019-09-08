@@ -6,8 +6,6 @@ categories: ['编译语言']
 a_id: 52
 ---
 
-- https://segmentfault.com/a/1190000014483200
-
 负载均衡的几种常用方式
 
 1、轮询（默认）
@@ -104,6 +102,10 @@ http{
     }
 }
 ```
+
+
+- https://segmentfault.com/a/1190000014483200
+
 
 
 
