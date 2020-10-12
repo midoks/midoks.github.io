@@ -1,134 +1,124 @@
 <!DOCTYPE html>
 <html>
 <!-- 头部 -->
-
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="Content-Language" content="cn">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="shortcut icon" href="{{site.res_url}}/img/favicon.ico">
-    <!-- 新 Bootstrap 核心 CSS 文件 -->
-    <link rel="stylesheet" href="{{site.res_url}}/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{site.res_url}}/css/cc.css?v=0.0.4">
-    <meta name="baidu-site-verification" content="zMuVIwAJfG" />
-    <meta name="google-site-verification" content="dB9JoNcNDQOWYUrWuD8Ed13LcGDk3WIv0p05cMUXr3c" />
-    <style type="text/css">
-    hr {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Language" content="cn">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="shortcut icon" href="{{site.res_url}}/img/favicon.ico">
+<!-- 新 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="{{site.res_url}}/css/bootstrap.min.css">
+<link rel="stylesheet" href="{{site.res_url}}/css/cc.css?v=0.0.4">
+<meta name="baidu-site-verification" content="zMuVIwAJfG" />
+<meta name="google-site-verification" content="dB9JoNcNDQOWYUrWuD8Ed13LcGDk3WIv0p05cMUXr3c" />
+<style type="text/css">
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
-    .content .rouge-table {
-        border-left: 0px;
-        border-top: 0px;
-    }
+.content .rouge-table {
+    border-left: 0px;
+    border-top: 0px;
+}
 
-    .content .rouge-gutter {
-        border-bottom: 0px;
-        border-right: 0px;
-        padding: 0px;
-    }
+.content .rouge-gutter {
+    border-bottom: 0px;
+    border-right: 0px;
+    padding: 0px;
+}
 
-    .content .rouge-gutter pre {
-        border-left: 0px;
-        border-top: 0px;
-        border-bottom: 0px;
-        border-radius: 0px;
-    }
+.content .rouge-gutter pre {
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-radius: 0px;
+}
 
-    .content .rouge-code {
-        border-right: 0px;
-        border-bottom: 0px;
-    }
+.content .rouge-code {
+    border-right: 0px;
+    border-bottom: 0px;
+}
 
-    .content .rouge-code pre {
-        border: 0px;
-    }
+.content .rouge-code pre {
+    border: 0px;
+}
 
 
-    .content table {
-        border-left: 1px solid #ddd;
-        border-top: 1px solid #ddd;
-        /*width: 100%;*/
-    }
+.content table {
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    /*width: 100%;*/
+}
 
-    .content table th {
-        padding: 8px;
-        border-right: 1px solid #ddd;
-        border-bottom: 1px solid #ddd;
-    }
+.content table th {
+    padding: 8px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
 
-    .content table td {
-        padding: 8px;
-        border-right: 1px solid #ddd;
-        border-bottom: 1px solid #ddd;
-    }
-    
-    </style>
-    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-    <script src="{{site.production_url}}/resources/js/jquery.min.js"></script>
-    <script src="{{site.production_url}}/resources/js/bootstrap.min.js"></script>
-    <!-- <script src="/resources/js/highlight.min.js"></script> -->
-    <!-- <script src="/resources/js/remarkable.js"></script> -->
-    <title>{{site.title}}-{% if page.title %}{{ page.title }}{% else %}为回忆,留下足迹。不忘初心。{% endif %}</title>
-    <!-- seo start -->
-    <meta name="keywords" content="{% if page.title %}{{ page.title }}{% else %}为回忆,留下足迹。不忘初心。{% endif %}">
-    <meta name="description" content="{% if page.title %}{{ page.title }}{% else %}为回忆,留下足迹。不忘初心。{% endif %}">
-    <!-- seo end -->
-    <style type="text/css">
-    a:link {
-        text-decoration: none;
-    }
+.content table td {
+    padding: 8px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
 
-    img {
-        width: auto;
-        height: auto;
-        max-width: 100%;
-        max-height: 100%;
-    }
-    </style>
-    <script>
-    function isLocal() {
-        var local_url = "http://127.0.0.1:4000/";
-        if (location.href.substr(0, local_url.length) == local_url) {
-            return true;
-        }
-        return false;
-    }
+</style>
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="{{site.production_url}}/resources/js/jquery.min.js"></script>
+<script src="{{site.production_url}}/resources/js/bootstrap.min.js"></script>
+<!-- <script src="/resources/js/highlight.min.js"></script> -->
+<!-- <script src="/resources/js/remarkable.js"></script> -->
+<title>{{site.title}}-{% if page.title %}{{ page.title }}{% else %}为回忆,留下足迹。不忘初心。{% endif %}</title>
+<!-- seo start -->
+<meta name="keywords" content="{% if page.title %}{{ page.title }}{% else %}为回忆,留下足迹。不忘初心。{% endif %}">
+<meta name="description" content="{% if page.title %}{{ page.title }}{% else %}为回忆,留下足迹。不忘初心。{% endif %}">
+<!-- seo end -->
+<style type="text/css">
+a:link {
+    text-decoration: none;
+}
 
-    if (!isLocal()) {
-        var targetProtocol = "https:";
-        if (window.location.protocol != targetProtocol) {
-            window.location.href = targetProtocol +
-                window.location.href.substring(window.location.protocol.length);
-        }
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+</style>
+<script>
+function isLocal() {
+    var local_url = "http://127.0.0.1:4000/";
+    if (location.href.substr(0, local_url.length) == local_url) {
+        return true;
     }
+    return false;
+}
 
-    if (!isLocal()) { //google ad
-        $.getScript("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", function() {
-            (adsbygoogle = window.adsbygoogle || []).push({
-                google_ad_client: "ca-pub-7736695762519033",
-                enable_page_level_ads: true,
-            });
-        });
+if (!isLocal()) {
+    var targetProtocol = "https:";
+    if (window.location.protocol != targetProtocol) {
+        window.location.href = targetProtocol +
+            window.location.href.substring(window.location.protocol.length);
     }
+}
 
-    if (!isLocal()) { //百度统计
-        var _hmt = _hmt || [];
-        (function() {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?c66706e0fc1b6293a62f8eba588390ec";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
-    }
-    </script>
-<script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script>
+
+if (!isLocal()) { //百度统计
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?c66706e0fc1b6293a62f8eba588390ec";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+}
+</script>
+<script data-ad-client="ca-pub-7736695762519033" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 
 <body>
-<amp-auto-ads type="adsense" data-ad-client="ca-pub-7736695762519033"></amp-auto-ads>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
