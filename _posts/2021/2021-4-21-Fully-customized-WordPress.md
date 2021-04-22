@@ -26,7 +26,7 @@ add_action('pre_handle_404', 'nb_pre_handle_404');
 /* 重写路径 */
 function nb_rules() {
     flush_rewrite_rules();
-    add_rewrite_rule('^demo\/(.+)\.html$', 'index.php??pagename=video&page=$matches[1]', 'top');
+    add_rewrite_rule('^demo\/(.+)\.html$', 'index.php??pagename=demo&page=$matches[1]', 'top');
 
 }
 add_action('init', 'nb_rules');
