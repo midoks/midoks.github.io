@@ -33,6 +33,7 @@ add_action('init', 'nb_rules');
 ```
 
 - 模板载入规则
+
 ```
 //模板载入规则
 add_action("template_redirect", 'nb_rule_template_redirect');
