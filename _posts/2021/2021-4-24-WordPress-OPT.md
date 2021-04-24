@@ -10,6 +10,9 @@ a_id: 55
 
 - https://github.com/midoks/wp-cache-db
 
+- php7.2
+- opcache
+
 # -- wp-settings.php | load_default_textdomain
 
 - 多语言加载,前台可以不加载
