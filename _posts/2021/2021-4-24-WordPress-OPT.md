@@ -13,7 +13,7 @@ a_id: 56
 - php7.2
 - opcache
 
-# -- wp-settings.php | load_default_textdomain
+#  wp-settings.php | load_default_textdomain
 
 - 多语言加载,前台可以不加载
 ```
@@ -28,7 +28,7 @@ if (is_admin()) {
 }
 ```
 
-# -- l10n.php | translate
+# l10n.php | translate
 
 ```
 function translate($text, $domain = 'default') {
@@ -40,7 +40,7 @@ function translate($text, $domain = 'default') {
 }
 ```
 
-# -- l10n.php | translate_with_gettext_context
+# l10n.php | translate_with_gettext_context
 ```
 function translate_with_gettext_context($text, $context, $domain = 'default') {
     if (!is_admin()) {return $text;}
@@ -48,7 +48,7 @@ function translate_with_gettext_context($text, $context, $domain = 'default') {
 }
 ```
 
-# -- option.php | get_option
+# option.php | get_option
 ```
 function get_option($option, $default = false) {
     // var_dump($option);
@@ -63,7 +63,7 @@ function get_option($option, $default = false) {
 }
 ```
 
-# -- scripts-loader.php | wp_default_scripts
+# scripts-loader.php | wp_default_scripts
 ```
 function wp_default_scripts($scripts) {
     if (!is_admin()) {return;}
@@ -71,7 +71,7 @@ function wp_default_scripts($scripts) {
 }
 ```
 
-# -- blocks.php | register_block_type_from_metadata
+# blocks.php | register_block_type_from_metadata
 ```
 function register_block_type_from_metadata($file_or_folder, $args = array()) {
     if (!is_admin()) {return;}
