@@ -3,7 +3,7 @@ layout: post
 title: WordPress深度优化记录[10ms]
 tag: ['php','WordPress']
 categories: ['运维']
-a_id: 55
+a_id: 56
 ---
 
 配置我的插件，效果更佳。
