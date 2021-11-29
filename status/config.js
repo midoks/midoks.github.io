@@ -5,7 +5,7 @@ window.Config = {
   SiteName: 'Uptime Status',
 
   // 站点链接
-  SiteUrl: '/',
+  SiteUrl: 'https://www.cachecha.com',
 
   // UptimeRobot Api 域名
   // 只需填写域名部分，默认为官网域名
