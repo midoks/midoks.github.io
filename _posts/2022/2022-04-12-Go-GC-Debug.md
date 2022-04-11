@@ -6,6 +6,8 @@ categories: ['go','gc']
 a_id: 58
 ---
 
+Go GC如何检测内存对象中是否包含指针
+
 ```
 // demo1.go
 func main() {
