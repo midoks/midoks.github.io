@@ -3,7 +3,7 @@ layout: post
 title: Go GC如何检测内存对象中是否包含指针
 tag: ['go','gc']
 categories: ['go','gc']
-a_id: 58
+a_id: 59
 ---
 
 Go GC如何检测内存对象中是否包含指针
